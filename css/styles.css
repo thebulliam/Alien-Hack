@@ -1,0 +1,75 @@
+/* Alien Hack Styles */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(87,152,176);
+    background: linear-gradient(0deg, rgba(87,152,176,1) 0%, rgba(26,40,52,1) 1%, rgba(93,125,150,1) 100%);
+}
+
+#myCanvas {
+    display: block;
+    margin: 0 auto;
+    cursor: url('./../img/target.png'), auto;
+    border-radius: 40px;
+    width: 100%;
+}
+
+h1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #f5f5f5;
+    font-size: 2em;
+}
+
+p {
+    color: #d5d5d5;
+    text-align: justify;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+p i {
+    font-size: 1.2em;
+    margin: 0 0.3em;
+}
+
+.player i {
+    color: red;
+}
+
+.enemy i {
+    color: green;
+}
+
+a {
+    text-align: center;
+    text-decoration: none;
+    color: #d5d5d5;
+    font-size: 1em;
+}
+
+a:hover {
+    color: #fff;
+    transition: all 500ms ease-in-out;
+}
+
+.row {
+    padding: 1em;
+}
+
+.margin {
+    margin: 20px auto;
+}
+
+.card {
+    padding: 2.8em;
+    border-radius: 40px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.10);
+    background-color: rgba(0, 0, 0, 0.2);
+}
